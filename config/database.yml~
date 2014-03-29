@@ -1,0 +1,14 @@
+local: &local
+  adapter: postgresql
+  username: crud_post
+  password: crud_post
+  host: localhost
+development:
+  <<: *local
+  database: test4_development
+test:
+  <<: *local
+  database: test4_test
+production:
+  <<: *local
+  database: test4_production
