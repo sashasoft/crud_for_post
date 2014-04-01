@@ -35,6 +35,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'cancan'
+
+gem 'simple_form'
+
+gem 'devise', '3.2.4'
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -42,7 +50,7 @@ end
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano', group: :development
+gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
